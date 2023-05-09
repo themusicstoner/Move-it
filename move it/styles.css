@@ -1,0 +1,46 @@
+.div{
+  background-color: pink;
+}
+body{
+  margin: 0;
+}
+h1{
+  margin-top: 0;
+}
+.web{
+  text-decoration: underline;
+  color: red;
+  font-size: 30px;
+}
+.kalu{
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+@media query (max-width: 600px){
+  p{
+    font-size: 10px;
+  }
+
+}
+.kalu{
+  display: flex;
+  padding: 0px;
+  margin:0px;
+  gap: 50px;
+
+}
+ul{
+  margin: 0px;
+}
+a:hover {
+  color: yellow;
+  font-size: 50px;
+}
+.kalu{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+  
+}
